@@ -1,0 +1,273 @@
+PROMPT MESTRE — CRIAÇÃO DO AETHIA X DO ZERO
+
+Crie um aplicativo chamado AETHIA X, começando um projeto completamente
+novo e independente. Não tente recuperar, editar, importar, corrigir ou
+aproveitar nenhum projeto anterior. Considere que nenhum projeto antigo
+existe. Comece do zero.
+
+OBJETIVO
+
+O AETHIA X deve ser um estúdio criativo digital, principalmente para
+celulares e tablets Android. Não é um jogo e não deve ser apenas uma
+demonstração visual. Quero um aplicativo realmente utilizável para
+desenhar, criar histórias em quadrinhos e fazer animações 2D.
+
+O aplicativo terá três áreas integradas:
+
+1.  DRAW — desenho e ilustração digital. É a área principal e deve
+    receber maior atenção.
+2.  COMICS — criação de histórias em quadrinhos.
+3.  ANIMATION — criação de animações 2D.
+
+REGRA PRINCIPAL
+
+Não crie apenas telas bonitas com botões sem função. Cada botão,
+ferramenta, menu e página deve funcionar de verdade. Se algum recurso
+avançado não puder ser implementado na plataforma, não simule que ele
+funciona: informe a limitação e deixe a estrutura preparada para uma
+implementação futura.
+
+1.  IDENTIDADE VISUAL
+
+Use uma aparência profissional, moderna, discreta e confortável para
+longas sessões de criação.
+
+Paleta: - Fundo principal: #1E1E22. - Painéis: #252529. - Barras e áreas
+secundárias em tons de grafite. - Texto principal branco. - Texto
+secundário cinza. - Azul suave como cor de destaque e azul mais vivo
+apenas para seleções e ações importantes.
+
+Evite: - Roxo neon. - Brilhos exagerados e gradientes excessivos. -
+Aparência infantil. - Botões gigantes e cartões desnecessários. -
+Animações excessivas. - Visual genérico de painel administrativo criado
+por IA.
+
+A interface deve lembrar a organização e a praticidade de programas
+profissionais de criação, como Clip Studio Paint, Krita e Sketchbook,
+sem copiar seus elementos proprietários, marcas ou recursos exclusivos.
+
+O espaço de trabalho deve priorizar a tela de desenho. Ferramentas e
+painéis devem ser compactos, organizados e fáceis de acessar.
+
+A interface deve funcionar em celulares e tablets Android, tanto na
+orientação vertical quanto horizontal. Adapte o tamanho e a posição dos
+painéis ao espaço disponível.
+
+2.  TELA INICIAL
+
+Título: “Bem-vindo ao AETHIA X” Subtítulo: “Seu estúdio criativo, sempre
+com você.”
+
+Apresente três áreas de entrada: - DRAW, com maior destaque. - COMICS. -
+ANIMATION.
+
+Inclua uma seção chamada “Meus Projetos”, mostrando projetos reais
+salvos, com miniatura, nome, tipo e data da última edição. Cada projeto
+deve permitir abrir, renomear, duplicar e excluir.
+
+Inclua atalhos funcionais: - Novo projeto. - Abrir projeto. - Importar
+imagem ou arquivo compatível. - Projetos recentes. - Modelos e tamanhos
+predefinidos.
+
+Não use imagens decorativas como substitutas da interface. Menus,
+textos, ícones, botões e painéis precisam ser elementos reais e
+independentes.
+
+3.  DRAW — ESTÚDIO DE DESENHO
+
+Esta é a função mais importante do aplicativo.
+
+Crie uma área de desenho com uma tela ampla e ferramentas organizadas ao
+redor dela.
+
+A tela deve permitir: - Criar telas com largura, altura e resolução
+personalizadas. - Fundo branco, transparente ou de cor escolhida. -
+Aproximar e afastar com gestos. - Mover a tela. - Girar a tela. - Usar
+grades e guias. - Desenhar com toque e caneta digital, quando o
+dispositivo oferecer suporte.
+
+Ferramentas desejadas: - Lápis. - Caneta. - Pincel. - Borracha. -
+Marcador. - Pincel de pintura. - Aquarela. - Preenchimento de cor. -
+Conta-gotas. - Seleção retangular. - Seleção livre ou laço. - Texto. -
+Linha. - Retângulo. - Elipse. - Réguas e simetria.
+
+Cada ferramenta deve ter configurações próprias quando aplicável: -
+Tamanho. - Opacidade. - Dureza. - Espaçamento. - Suavização ou
+estabilização do traço. - Textura. - Formato da ponta.
+
+Crie um sistema de cores com: - Roda de cores. - Valores RGB. - Campo
+HEX. - Paletas. - Cores recentes. - Cores favoritas. - Controle de
+transparência.
+
+A biblioteca de pincéis deve permitir selecionar e configurar diferentes
+pincéis. Não apresente pincéis que não tenham comportamento funcional.
+
+4.  SISTEMA DE CAMADAS
+
+Implemente camadas reais integradas ao sistema de desenho.
+
+O usuário deve poder: - Criar e excluir camadas. - Duplicar camadas. -
+Renomear camadas. - Ocultar e mostrar camadas. - Bloquear camadas. -
+Alterar opacidade. - Mudar a ordem das camadas. - Agrupar camadas em
+pastas. - Mesclar camadas. - Usar modos de mesclagem quando forem
+suportados.
+
+As alterações feitas no desenho devem permanecer associadas às camadas
+corretas. Não crie apenas uma lista visual de camadas sem integração com
+o desenho.
+
+5.  COMICS — ESTÚDIO DE QUADRINHOS
+
+Crie uma área para produzir histórias em quadrinhos usando o mesmo
+sistema de desenho do DRAW.
+
+Recursos: - Criar histórias e organizar páginas. - Escolher modelos de
+página. - Criar e editar quadros. - Dividir páginas em quadros
+automaticamente ou manualmente. - Inserir balões de fala e pensamento. -
+Inserir caixas de narração. - Adicionar e editar textos e fontes. -
+Organizar a sequência das páginas. - Aplicar efeitos visuais quando
+possível. - Exportar páginas e histórias em formatos compatíveis.
+
+A edição dos desenhos deve aproveitar as ferramentas e camadas do DRAW.
+Evite criar um segundo editor de desenho separado sem necessidade.
+
+6.  ANIMATION — ESTÚDIO DE ANIMAÇÃO 2D
+
+Crie uma área de animação quadro a quadro.
+
+Recursos: - Linha do tempo. - Criar, duplicar, excluir e reorganizar
+quadros. - Definir FPS. - Reproduzir e pausar a animação. - Repetir a
+reprodução em loop. - Visualizar a animação. - Onion skin, mostrando
+quadros anteriores e seguintes com transparência. - Organizar quadros e
+camadas.
+
+Permita exportar GIF ou vídeo quando a plataforma oferecer suporte real.
+Se algum formato não for possível, explique a limitação e ofereça os
+formatos disponíveis.
+
+7.  PROJETOS, SALVAMENTO E ARQUIVOS
+
+Implemente um sistema confiável de projetos.
+
+O usuário deve poder: - Criar um projeto. - Abrir um projeto
+existente. - Salvar. - Salvar como. - Renomear. - Duplicar. - Excluir. -
+Marcar como favorito. - Importar imagens. - Exportar o trabalho.
+
+Inclua salvamento automático, recuperação após falhas e aviso de
+alterações não salvas.
+
+Sempre que possível, crie um formato próprio do AETHIA X que preserve
+camadas, quadros, páginas e informações editáveis. Não salve apenas uma
+imagem achatada quando o projeto precisar continuar editável.
+
+Ofereça exportação para PNG e JPG. Inclua PDF, GIF e vídeo somente
+quando forem realmente suportados pela plataforma.
+
+As miniaturas dos projetos devem ser geradas a partir do conteúdo real
+dos projetos.
+
+8.  CONFIGURAÇÕES
+
+Crie uma área de configurações com: - Tema claro e escuro. - Cor de
+destaque. - Tamanho dos ícones. - Organização dos painéis. -
+Preferências de caneta e toque. - Gestos e atalhos. - Desempenho e uso
+de memória. - Armazenamento. - Salvamento automático. - Recuperação de
+projetos. - Idioma. - Privacidade. - Informações e versão do aplicativo.
+
+Mostre somente configurações que tenham efeito real. Não crie opções
+decorativas.
+
+9.  ORGANIZAÇÃO TÉCNICA
+
+Organize o projeto em módulos claros, de acordo com a tecnologia
+disponível na plataforma. Não force uma linguagem ou estrutura
+específica se a plataforma usar outra tecnologia.
+
+Sugestão de separação: - Componentes da interface. - Telas e
+navegação. - Motor de desenho. - Sistema de camadas. - Estúdio de
+quadrinhos. - Estúdio de animação. - Gerenciamento de projetos. -
+Salvamento e armazenamento. - Importação e exportação. - Configurações e
+preferências.
+
+Mantenha o código organizado, reutilizável e preparado para expansão.
+DRAW, COMICS e ANIMATION devem compartilhar os recursos que fizerem
+sentido, especialmente o motor de desenho e o sistema de camadas.
+
+Exemplo simplificado de estrutura de um projeto:
+
+Projeto: - identificador - nome - tipo - largura e altura - camadas -
+data de criação - data da última edição
+
+Camada: - identificador - nome - conteúdo - visibilidade - bloqueio -
+opacidade
+
+Exemplo simplificado de salvamento: 1. Detectar uma alteração no
+projeto. 2. Atualizar os dados do projeto. 3. Salvar automaticamente
+após um pequeno intervalo sem novas alterações. 4. Manter uma cópia
+recuperável em caso de falha.
+
+Esses exemplos servem como orientação. Adapte-os à tecnologia usada pela
+plataforma.
+
+10. DESEMPENHO E COMPATIBILIDADE
+
+O aplicativo deve ser pensado principalmente para dispositivos Android,
+incluindo tablets com tela sensível ao toque.
+
+Priorize: - Interface responsiva. - Boa resposta ao toque. - Uso
+eficiente de memória. - Desenho fluido. - Carregamento rápido. -
+Salvamento confiável. - Tratamento de telas grandes e pequenas.
+
+Não presuma que todos os dispositivos possuem caneta com pressão ou
+inclinação. Detecte ou disponibilize esses recursos apenas quando houver
+suporte.
+
+11. ORDEM DE DESENVOLVIMENTO
+
+Desenvolva por etapas, mantendo o projeto funcional ao final de cada
+etapa:
+
+ETAPA 1 — Estrutura: - Criar o projeto novo. - Construir a identidade
+visual. - Criar a tela inicial. - Criar navegação entre DRAW, COMICS e
+ANIMATION. - Criar a área de projetos.
+
+ETAPA 2 — DRAW: - Implementar a tela de desenho. - Implementar traços e
+ferramentas básicas. - Implementar cores. - Implementar camadas reais. -
+Implementar zoom, movimentação e salvamento.
+
+ETAPA 3 — COMICS: - Criar páginas e quadros. - Adicionar balões e
+textos. - Integrar com o DRAW.
+
+ETAPA 4 — ANIMATION: - Criar linha do tempo. - Implementar quadros e
+reprodução. - Adicionar onion skin. - Implementar exportação compatível.
+
+ETAPA 5 — Finalização: - Configurações. - Importação e exportação. -
+Recuperação de projetos. - Testes em celular e tablet. - Correção de
+erros e melhoria de desempenho.
+
+12. REGRAS FINAIS IMPORTANTES
+
+-   Comece um projeto totalmente novo, sem depender de qualquer projeto
+    anterior.
+-   Não tente recuperar, reparar ou modificar um projeto antigo.
+-   Não entregue somente uma interface demonstrativa.
+-   Não coloque botões sem função.
+-   Não use imagens para fingir que ferramentas e painéis são
+    funcionais.
+-   Não diga que um recurso está pronto se ele ainda não funciona.
+-   Se a plataforma tiver limitações, explique claramente.
+-   Priorize primeiro uma versão funcional e estável; depois acrescente
+    recursos avançados.
+-   Mantenha a identidade visual consistente em todas as áreas.
+-   Não simplifique o aplicativo a ponto de perder sua proposta de
+    estúdio criativo profissional.
+
+RESULTADO ESPERADO
+
+Quero um aplicativo chamado AETHIA X, com aparência profissional e
+estrutura de um verdadeiro estúdio criativo. A prioridade é oferecer uma
+experiência de desenho digital sólida, com camadas e ferramentas
+funcionais, complementada por criação de quadrinhos e animação 2D.
+
+Construa o aplicativo do zero, de forma organizada, funcional,
+responsiva e preparada para evoluir.

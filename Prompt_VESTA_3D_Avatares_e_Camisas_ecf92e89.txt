@@ -1,0 +1,384 @@
+PROMPT MESTRE — VESTA 3D: ESTÚDIO DE AVATARES E CAMISAS
+
+INSTRUÇÃO FUNDAMENTAL Crie um projeto completamente novo, do zero e
+independente de qualquer projeto anterior. Não tente recuperar, editar,
+importar, corrigir ou aproveitar projetos antigos. Considere que este
+projeto ainda não existe. Leia este documento inteiro antes de começar e
+use-o como especificação principal.
+
+OBJETIVO Crie um aplicativo profissional chamado VESTA 3D. Ele terá duas
+funções principais integradas: 1. Criar um avatar tridimensional
+semelhante a uma pessoa a partir de fotografias autorizadas. 2. Criar e
+personalizar camisas em 3D e vestir essas camisas no avatar para
+visualizar o resultado em um provador 3D interativo.
+
+O objetivo NÃO é gerar apenas uma imagem da pessoa usando uma camisa. O
+objetivo é criar um avatar 3D e uma peça de roupa 3D, independentes e
+editáveis, para que o usuário possa girar o modelo, observar a camisa de
+vários ângulos e fazer alterações em tempo real.
+
+REGRA PRINCIPAL Não crie apenas telas bonitas com botões sem função.
+Cada ferramenta, menu, botão e página deve funcionar de verdade. Não
+finja que existe reconstrução 3D, simulação de tecido ou ajuste corporal
+se a tecnologia não estiver disponível. Explique as limitações e prepare
+integrações reais quando necessário.
+
+================================================== 1. IDENTIDADE VISUAL
+==================================================
+
+Crie uma interface profissional, moderna, elegante e confortável para
+uso prolongado. - Fundo grafite ou cinza-escuro. - Painéis discretos. -
+Texto branco e cinza. - Cor de destaque azul suave ou azul-ciano
+moderado. - Ícones simples e consistentes. - Área de visualização 3D
+ampla e em destaque. - Ferramentas compactas e organizadas.
+
+Evite aparência infantil, visual de jogo, neon exagerado, brilhos
+excessivos, gradientes chamativos, painéis gigantes e aparência genérica
+de painel administrativo.
+
+A interface deve lembrar um software profissional de design de produtos
+e visualização 3D, sem copiar marcas, interfaces ou recursos
+proprietários.
+
+Priorize celulares e tablets Android. Adapte a interface para telas
+verticais, horizontais, pequenas e grandes. Em telas maiores, mostre o
+modelo 3D e os painéis lado a lado. Em telas pequenas, use painéis
+recolhíveis e controles apropriados para toque.
+
+================================================== 2. TELA INICIAL E
+NAVEGAÇÃO ==================================================
+
+Título: “VESTA 3D” Subtítulo sugerido: “Crie avatares. Personalize
+camisas. Visualize em 3D.”
+
+Apresente três áreas: - MEUS AVATARES. - MINHAS CAMISAS. - PROVADOR 3D.
+
+Inclua ações: - Criar avatar. - Nova camisa. - Montar visual 3D. - Abrir
+projeto. - Importar arquivos compatíveis. - Ver projetos recentes.
+
+Mostre projetos realmente salvos, com miniatura, nome, tipo e data de
+edição. Permita abrir, renomear, duplicar e excluir projetos. Não use
+exemplos fictícios como se fossem projetos reais do usuário.
+
+================================================== 3. MÓDULO A — AVATAR
+3D A PARTIR DE FOTOGRAFIAS
+==================================================
+
+O usuário deve poder enviar uma ou mais fotografias da pessoa para criar
+um avatar 3D semelhante a ela.
+
+3.1. Envio de imagens - Enviar uma foto frontal. - Enviar fotos
+adicionais de perfil e de outros ângulos. - Importar imagens da galeria
+ou câmera, se a plataforma permitir. - Visualizar, remover e substituir
+imagens antes do envio. - Mostrar orientações para obter melhores
+resultados.
+
+Explique que uma foto frontal pode gerar apenas uma aproximação; fotos
+de diferentes ângulos ajudam na reconstrução do volume e dos detalhes.
+
+3.2. Reconstrução Use um serviço real de IA ou tecnologia de
+reconstrução 3D compatível com a plataforma. O resultado deve ser um
+modelo tridimensional que possa ser visto de frente, de lado e por trás.
+
+Busque preservar de forma aproximada: - Formato geral do rosto. - Cabelo
+e penteado. - Aparência geral da pele. - Olhos, sobrancelhas, nariz e
+boca. - Formato do queixo. - Proporções gerais do corpo, quando as
+imagens permitirem.
+
+Não prometa cópia perfeita. A qualidade depende das fotografias, do
+serviço de IA e da tecnologia disponível.
+
+IMPORTANTE: não aceite uma imagem 2D com efeito de profundidade como
+resultado final. O objetivo é obter um modelo 3D real, com geometria e
+materiais, sempre que a tecnologia permitir.
+
+3.3. Edição do avatar Permita ajustar, quando tecnicamente possível: -
+Cabelo e penteado. - Cor do cabelo. - Detalhes gerais do rosto. - Tom de
+pele. - Altura e proporções gerais. - Postura. - Roupa-base. - Nome do
+avatar.
+
+Não apresente controles que não alterem o modelo de verdade.
+
+3.4. Visualização - Rotação de 360 graus. - Zoom. - Movimento da
+câmera. - Centralizar o modelo. - Vistas frontal, lateral e traseira. -
+Iluminação ajustável. - Fundo neutro.
+
+3.5. Salvamento Salve o modelo 3D, texturas, materiais, nome, miniatura
+e configurações necessárias para reutilizar o avatar em diferentes
+camisas.
+
+================================================== 4. MÓDULO B — ESTÚDIO
+DE CAMISAS 3D ==================================================
+
+Crie uma biblioteca de modelos de camisas 3D, por exemplo: - Camiseta
+básica. - Camiseta oversized. - Camiseta esportiva. - Camisa de
+futebol. - Camisa de uniforme. - Camisa polo. - Manga longa. - Regata. -
+Moletom, se houver suporte.
+
+Cada modelo deve ser um objeto 3D próprio, com frente, costas, mangas,
+gola e demais partes coerentes. Não use apenas uma imagem estática.
+
+4.1. Personalização de cores Permita alterar: - Cor principal. - Cor
+secundária. - Mangas. - Gola. - Acabamentos. - Detalhes e faixas. -
+Paletas salvas.
+
+4.2. Estampas e desenhos - Importar imagens. - Escolher padrões
+disponíveis. - Posicionar, redimensionar e girar estampas. - Ajustar a
+posição na frente, costas ou mangas. - Remover ou substituir
+elementos. - Manter proporções da imagem.
+
+4.3. Textos - Adicionar textos. - Escolher fontes disponíveis. - Alterar
+tamanho e cor. - Alinhar. - Posicionar na peça. - Girar e redimensionar.
+
+4.4. Elementos esportivos - Números. - Nome de jogador. - Escudos e
+emblemas. - Patrocinadores. - Faixas e detalhes geométricos.
+
+4.5. Vistas Permita ver frente, costas, lado esquerdo, lado direito e
+girar livremente em 360 graus. As alterações devem atualizar a camisa 3D
+imediatamente ou após uma confirmação clara.
+
+4.6. Camadas de personalização Crie uma lista funcional de elementos,
+como cor base, estampa, texto frontal, escudo, número, nome e detalhes
+das mangas. Permita ocultar, mostrar, reordenar quando aplicável,
+duplicar, renomear, bloquear e excluir. A lista deve controlar os
+elementos reais da camisa.
+
+4.7. Salvamento Preserve modelo, cores, texturas, estampas, textos,
+logotipos, posições, tamanhos e camadas. O usuário deve poder reabrir e
+continuar editando.
+
+================================================== 5. MÓDULO C —
+PROVADOR 3D ==================================================
+
+Esta é a integração central do aplicativo.
+
+O usuário deve: 1. Escolher um avatar salvo. 2. Escolher uma camisa
+personalizada. 3. Aplicar a camisa ao avatar. 4. Visualizar o conjunto
+em 3D. 5. Girar o avatar e observar a camisa de todos os ângulos. 6.
+Voltar ao editor de camisa, alterar a peça e ver as alterações no
+avatar. 7. Trocar a camisa sem precisar recriar o avatar. 8. Usar a
+mesma camisa em diferentes avatares compatíveis.
+
+A camisa deve ser vestida no modelo 3D do avatar. Não basta colocar uma
+imagem por cima do corpo ou gerar somente uma foto final.
+
+5.1. Ajuste ao corpo Quando o motor 3D permitir, ofereça: - Ajuste de
+escala. - Ajuste de posição. - Ajuste de comprimento. - Ajuste das
+mangas. - Ajuste de largura. - Compatibilidade com diferentes proporções
+de avatar. - Redução de interseções visíveis entre camisa e corpo.
+
+A simulação realista de tecido e o caimento avançado podem exigir um
+motor físico especializado. Não finja que existe simulação física se não
+estiver implementada.
+
+5.2. Controles de visualização - Vista frontal, traseira e lateral. -
+Rotação livre. - Zoom. - Iluminação. - Fundo neutro. - Comparação entre
+versões, se possível.
+
+O avatar e a camisa devem continuar sendo projetos independentes.
+Alterar uma camisa não pode modificar ou danificar o arquivo original do
+avatar.
+
+================================================== 6. MOTOR 3D
+==================================================
+
+Implemente uma área 3D real usando a tecnologia mais adequada e
+compatível com a plataforma. Se for uma aplicação web, avalie Three.js
+ou outra biblioteca 3D compatível. Não force uma tecnologia se o
+ambiente não oferecer suporte.
+
+O motor deve: - Carregar modelos tridimensionais. - Exibir geometria,
+materiais e texturas. - Controlar câmera e iluminação. - Permitir
+rotação, zoom e movimentação. - Atualizar texturas da camisa. - Aplicar
+a camisa ao avatar. - Responder a gestos de toque.
+
+Use formatos como GLB ou glTF quando forem suportados.
+
+Separe os componentes: - Modelo do avatar. - Modelo da camisa. -
+Materiais. - Texturas. - Câmera. - Iluminação. - Controles.
+
+Não substitua o modelo 3D por uma imagem plana.
+
+================================================== 7. IA E INTEGRAÇÕES
+==================================================
+
+A reconstrução de um avatar 3D semelhante a uma pessoa a partir de
+fotografias pode exigir um serviço externo especializado.
+
+Antes de implementar: - Verifique quais integrações a plataforma
+realmente oferece. - Identifique se existe serviço de geração ou
+reconstrução de avatar 3D. - Verifique formatos aceitos, limites de
+tamanho e tempo de processamento. - Use credenciais de API de forma
+segura, no servidor ou no sistema de segredos da plataforma. - Nunca
+exponha chaves secretas no navegador ou no código público.
+
+Se não houver serviço de reconstrução disponível: - Não finja que a
+função está pronta. - Implemente o envio e a preparação das imagens. -
+Prepare um módulo separado para conectar um serviço real futuramente. -
+Se possível, ofereça um avatar de demonstração, claramente identificado
+como demonstração. - Informe ao usuário o que está funcionando e o que
+ainda depende de integração.
+
+Diferencie claramente: - Avatar reconstruído a partir de fotografias. -
+Avatar de demonstração. - Avatar criado ou ajustado manualmente.
+
+================================================== 8. PRIVACIDADE E
+CONSENTIMENTO ==================================================
+
+Fotografias e avatares representam pessoas reais. Implemente: -
+Confirmação de que o usuário tem autorização para usar as fotografias e
+criar o avatar. - Projetos privados por padrão. - Possibilidade de
+excluir fotos, avatares e projetos. - Informação clara quando uma foto
+for enviada a um serviço externo. - Proteção dos arquivos e dados. - Não
+publicar automaticamente imagens ou modelos. - Não apresentar o avatar
+como prova de identidade. - Não usar a aparência de alguém para enganar
+terceiros ou fingir que a pessoa participou de uma situação.
+
+Não permita iniciar a reconstrução sem uma confirmação de autorização.
+
+================================================== 9. PROJETOS E
+ARMAZENAMENTO ==================================================
+
+Tipos de projeto: - Avatar. - Camisa. - Provador 3D.
+
+Ações: - Criar. - Abrir. - Salvar. - Salvar como. - Renomear. -
+Duplicar. - Excluir. - Favoritar. - Exportar, quando suportado.
+
+Inclua salvamento automático, aviso de alterações não salvas,
+recuperação após falhas quando possível e miniaturas geradas a partir
+dos projetos reais.
+
+Preserve modelos, materiais, texturas e configurações editáveis. Não
+salve apenas capturas de tela quando o usuário precisar continuar
+editando.
+
+================================================== 10. EXPORTAÇÃO
+==================================================
+
+Quando houver suporte real, permita exportar: - Imagem da camisa. -
+Vista frontal e traseira. - Captura do avatar usando a camisa. - Projeto
+editável. - Modelo 3D em formato compatível.
+
+A exportação de imagens pode ser feita a partir da visualização
+renderizada em 3D. Não afirme que há exportação de modelo 3D se o
+sistema só produzir imagens.
+
+================================================== 11. ORGANIZAÇÃO
+TÉCNICA ==================================================
+
+Organize o projeto em módulos independentes: - Interface e navegação. -
+Tela inicial e projetos. - Envio de fotografias. - Integração com IA de
+avatar. - Gerenciamento de avatares. - Motor 3D. - Catálogo de
+camisas. - Editor de camisas. - Materiais e texturas. - Provador 3D. -
+Armazenamento. - Importação e exportação. - Configurações e privacidade.
+
+Não coloque toda a lógica em uma única página ou arquivo. Use
+componentes reutilizáveis. Adapte a arquitetura à tecnologia da
+plataforma, sem forçar linguagem ou framework específico.
+
+================================================== 12. FLUXOS DE USO
+==================================================
+
+FLUXO A — CRIAR AVATAR 1. Entrar em Meus Avatares. 2. Selecionar Criar
+Avatar. 3. Enviar fotografias autorizadas. 4. Conferir as imagens. 5.
+Confirmar autorização. 6. Iniciar reconstrução. 7. Visualizar o
+resultado 3D. 8. Ajustar, se necessário. 9. Salvar.
+
+FLUXO B — CRIAR CAMISA 1. Entrar em Minhas Camisas. 2. Selecionar Nova
+Camisa. 3. Escolher um modelo. 4. Personalizar cores. 5. Adicionar
+estampas, textos e logotipos. 6. Visualizar frente, costas e laterais.
+7. Salvar.
+
+FLUXO C — PROVADOR 3D 1. Entrar em Provador 3D. 2. Escolher avatar. 3.
+Escolher camisa. 4. Aplicar a camisa ao avatar. 5. Girar e observar. 6.
+Voltar para editar a camisa, se necessário. 7. Salvar a combinação ou
+exportar uma visualização.
+
+O fluxo deve ser simples e compreensível, sem exigir conhecimento
+técnico do usuário.
+
+================================================== 13. DESEMPENHO E
+COMPATIBILIDADE ==================================================
+
+Priorize celulares e tablets Android: - Interface responsiva. -
+Controles adequados para toque. - Carregamento eficiente de modelos
+3D. - Uso cuidadoso de memória. - Redução de qualidade de modelos
+pesados em dispositivos limitados, se necessário. - Indicadores de
+carregamento. - Mensagens claras durante processamento. - Tratamento de
+erros de importação e carregamento. - Proteção contra perda de trabalho.
+
+Não presuma que todo aparelho consegue executar modelos 3D complexos.
+Adapte a qualidade ao desempenho disponível.
+
+================================================== 14. ORDEM DE
+DESENVOLVIMENTO ==================================================
+
+ETAPA 1 — BASE - Criar o projeto do zero. - Criar identidade visual. -
+Criar tela inicial e navegação. - Criar áreas de avatares, camisas e
+provador. - Criar armazenamento básico.
+
+ETAPA 2 — VISUALIZAÇÃO 3D - Implementar ambiente 3D. - Carregar avatar
+de demonstração. - Carregar modelos 3D de camisas. - Implementar câmera,
+rotação e zoom. - Testar em celular e tablet.
+
+ETAPA 3 — EDITOR DE CAMISAS - Catálogo de modelos. - Cores. - Textos. -
+Imagens e estampas. - Posicionamento e tamanho. - Atualização da camisa
+3D. - Salvamento e reabertura.
+
+ETAPA 4 — AVATAR POR FOTOGRAFIAS - Envio de fotos. - Confirmação de
+autorização. - Integração com serviço real de reconstrução 3D. -
+Visualização do resultado. - Ajustes e salvamento. - Se não houver
+integração disponível, informar a limitação.
+
+ETAPA 5 — PROVADOR 3D - Aplicar camisa ao avatar. - Ajustar a peça
+dentro das capacidades do motor. - Trocar camisas e avatares. -
+Atualizar a visualização. - Testar combinações.
+
+ETAPA 6 — FINALIZAÇÃO - Importação e exportação. - Privacidade e
+exclusão de dados. - Salvamento automático. - Otimização. - Testes e
+correção de erros.
+
+================================================== 15. TESTES
+OBRIGATÓRIOS ==================================================
+
+Teste: - Criar e salvar avatar de demonstração. - Reabrir o avatar. -
+Girar o modelo. - Criar uma camisa. - Alterar cores. - Adicionar
+texto. - Adicionar estampa. - Ver frente e costas. - Salvar e reabrir a
+camisa. - Escolher avatar e camisa no provador. - Aplicar a camisa ao
+avatar. - Girar o conjunto 3D. - Trocar a camisa sem perder o avatar. -
+Excluir um projeto. - Testar em telas pequenas e grandes.
+
+Corrija os erros antes de declarar uma função pronta.
+
+================================================== 16. REGRAS FINAIS
+==================================================
+
+-   Comece um projeto inteiramente novo.
+-   Não use projetos antigos.
+-   Não crie somente um protótipo visual.
+-   Não use imagens planas para fingir que existe um modelo 3D.
+-   Não crie botões sem função.
+-   Não invente integrações de IA.
+-   Não diga que a reconstrução funciona sem um serviço real.
+-   Não diga que a camisa está vestida no avatar se estiver apenas
+    sobreposta como imagem.
+-   Preserve os projetos editáveis.
+-   Priorize celulares e tablets.
+-   Faça os módulos trabalharem juntos.
+-   Explique limitações técnicas com clareza.
+-   Priorize uma base funcional antes dos recursos avançados.
+
+RESULTADO ESPERADO
+
+Quero um aplicativo profissional chamado VESTA 3D no qual o usuário
+possa: 1. Enviar fotografias autorizadas e gerar um avatar
+tridimensional semelhante à pessoa. 2. Criar e personalizar diferentes
+modelos de camisas. 3. Visualizar as camisas em 3D de todos os ângulos.
+4. Vestir as camisas no avatar 3D. 5. Girar e observar o avatar usando a
+camisa. 6. Salvar, reabrir e continuar editando avatares, camisas e
+combinações.
+
+A experiência deve ser a de um verdadeiro estúdio de criação e
+visualização 3D, e não de um simples gerador de imagens. Construa tudo
+do zero, com organização, funcionalidades reais e uma arquitetura
+preparada para evoluir.

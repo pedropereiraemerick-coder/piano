@@ -1,0 +1,1281 @@
+KEYORA PIANO
+
+DOCUMENTO MESTRE — ESPECIFICAÇÃO COMPLETA DO APLICATIVO
+
+Nome do projeto: KEYORA PIANO
+Categoria: Piano virtual, aprendizado musical e leitura de partituras.
+Plataforma inicial: Android.
+Dispositivos prioritários: Tablets, com adaptação para celulares.
+Versão do planejamento: 1.0.
+
+---
+
+1. APRESENTAÇÃO DO KEYORA PIANO
+
+1.1. Conceito
+
+O KEYORA PIANO será um aplicativo completo de piano virtual, leitura de partituras e aprendizado musical.
+
+A proposta é reunir em um único aplicativo as principais funções de um piano digital, ferramentas de aprendizado e recursos para pessoas que já possuem um piano ou teclado físico.
+
+O aplicativo deverá permitir que o usuário:
+
+- Toque piano utilizando o teclado virtual.
+- Escolha diferentes tipos de timbres de piano.
+- Ajuste o tamanho das teclas.
+- Altere as oitavas.
+- Toque com vários dedos simultaneamente.
+- Utilize as duas mãos.
+- Divida a tela entre teclado e partitura.
+- Pesquise músicas.
+- Importe partituras.
+- Aprenda a tocar músicas com orientação visual.
+- Descubra quais teclas correspondem às notas da partitura.
+- Utilize o microfone para identificar notas de um piano físico.
+- Grave suas execuções.
+- Reproduza e compartilhe gravações.
+
+O KEYORA não deverá ser apenas um teclado virtual. Ele deverá funcionar como uma ferramenta musical completa.
+
+1.2. Conceito principal de utilização
+
+O aplicativo deverá atender a dois tipos de usuários.
+
+USUÁRIO 1 — NÃO POSSUI PIANO FÍSICO
+
+Esse usuário poderá utilizar o teclado virtual para tocar, aprender músicas e praticar.
+
+O aplicativo deverá mostrar visualmente quais teclas precisam ser pressionadas.
+
+USUÁRIO 2 — JÁ POSSUI PIANO OU TECLADO FÍSICO
+
+Esse usuário poderá utilizar o KEYORA como leitor de partituras, ferramenta de estudo e identificador de notas.
+
+Poderá acompanhar uma partitura na tela enquanto toca seu próprio instrumento.
+
+O microfone poderá identificar as notas produzidas pelo piano físico e compará-las com a música estudada.
+
+IMPORTANTE: Nenhum usuário deverá ser obrigado a utilizar o teclado virtual. A área de partituras deverá funcionar independentemente dele.
+
+---
+
+2. IDENTIDADE VISUAL
+
+2.1. Direção visual
+
+O KEYORA deverá possuir uma aparência moderna, elegante, organizada e profissional.
+
+A primeira proposta visual aprovada pelo usuário deverá servir como referência para a identidade do aplicativo.
+
+A interface deverá apresentar:
+
+- Teclado grande e bem destacado.
+- Fundo elegante.
+- Botões compactos.
+- Cabeçalho organizado.
+- Menus fáceis de encontrar.
+- Controles discretos.
+- Cores personalizáveis.
+- Boa utilização da tela.
+- Organização semelhante à de aplicativos musicais profissionais.
+
+A inspiração funcional poderá vir de aplicativos como Walk Band, mas o KEYORA deverá ter identidade visual própria.
+
+2.2. O que evitar
+
+Não utilizar um visual futurista exagerado.
+
+Evitar:
+
+- Excesso de neon.
+- Brilhos exagerados.
+- Muitos efeitos luminosos.
+- Painéis enormes.
+- Botões espalhados.
+- Aparência de videogame.
+- Animações desnecessárias.
+- Menus que ocupem permanentemente o espaço do piano.
+
+O objetivo é criar um aplicativo musical, não um jogo.
+
+---
+
+3. SISTEMA DE TEMAS E CORES
+
+O KEYORA deverá possuir quatro temas completos.
+
+A mudança de tema deverá modificar a aparência de toda a interface, e não apenas a cor do fundo.
+
+3.1. Tema Rosa
+
+Paleta:
+
+- Rosa.
+- Rosa-claro.
+- Magenta.
+- Roxo.
+- Grafite.
+- Branco.
+
+O rosa será a cor principal dos destaques, botões selecionados, indicadores e elementos ativos.
+
+A aparência deverá ser elegante, moderna e agradável.
+
+3.2. Tema Azul
+
+Paleta:
+
+- Azul.
+- Azul-marinho.
+- Azul-claro.
+- Ciano discreto.
+- Branco.
+- Grafite.
+
+Deverá transmitir uma aparência profissional e organizada, sem exagerar nos efeitos tecnológicos.
+
+3.3. Tema Branco
+
+Paleta:
+
+- Branco.
+- Cinza-claro.
+- Cinza.
+- Preto.
+- Detalhes discretos na cor de destaque.
+
+Deverá oferecer uma experiência clara e confortável.
+
+3.4. Tema Black
+
+Paleta:
+
+- Preto.
+- Grafite.
+- Cinza-escuro.
+- Prata.
+- Branco.
+
+Deverá apresentar uma aparência sofisticada, com bom contraste.
+
+3.5. Mudança completa de interface
+
+Quando o usuário selecionar um tema, deverão mudar:
+
+- Fundo.
+- Cabeçalho.
+- Botões.
+- Menus.
+- Painéis.
+- Ícones ativos.
+- Bordas.
+- Controles.
+- Indicadores.
+- Destaques das notas.
+- Área de partituras.
+- Biblioteca.
+- Configurações.
+- Telas de aprendizado.
+- Janelas adicionais.
+
+A mudança deverá acontecer imediatamente, sem reiniciar o aplicativo.
+
+A preferência deverá ficar salva.
+
+---
+
+4. TELA PRINCIPAL
+
+4.1. Organização
+
+A tela principal deverá ser simples e priorizar o teclado.
+
+O usuário deverá conseguir abrir o aplicativo e começar a tocar sem precisar passar por várias telas.
+
+A estrutura recomendada será:
+
+CABEÇALHO SUPERIOR
+
+- Logotipo KEYORA.
+- Pesquisa.
+- Favoritos.
+- Histórico.
+- Arquivos.
+- Configurações.
+
+ÁREA CENTRAL
+
+- Teclado virtual.
+- Partitura, quando ativada.
+- Área de aprendizado, quando selecionada.
+
+CONTROLES COMPACTOS
+
+- Tipo de piano.
+- Volume.
+- Oitavas.
+- Gravação.
+- Reprodução.
+- Metrônomo.
+- Divisão do teclado.
+
+NAVEGAÇÃO PRINCIPAL
+
+- Piano.
+- Partitura.
+- Aprender.
+- Ler partitura.
+- Ouvir piano.
+
+Os controles secundários deverão aparecer apenas quando forem solicitados.
+
+4.2. Menu superior
+
+O menu deverá ser discreto e de fácil acesso.
+
+A opção de configurações deverá ficar visível, mas não poderá abrir automaticamente.
+
+A pesquisa deverá permitir localizar músicas, partituras e arquivos disponíveis.
+
+4.3. Menu de funções
+
+O KEYORA deverá possuir as seguintes áreas:
+
+PIANO: abre o teclado virtual.
+
+PARTITURA: abre o leitor de partituras.
+
+APRENDER: apresenta as ferramentas de aprendizado.
+
+LER PARTITURA: permite acompanhar uma partitura sem precisar utilizar o piano virtual.
+
+OUVIR PIANO: utiliza o microfone para identificar notas de um instrumento externo.
+
+GRAVAÇÕES: apresenta as execuções gravadas.
+
+BIBLIOTECA: reúne músicas e arquivos importados.
+
+CONFIGURAÇÕES: apresenta as opções de personalização.
+
+---
+
+5. TECLADO VIRTUAL
+
+5.1. Prioridade absoluta
+
+O teclado é o elemento central do KEYORA.
+
+Ele deverá ocupar uma grande parte da tela, principalmente em tablets.
+
+Nenhuma configuração deverá diminuir permanentemente seu tamanho.
+
+O usuário deverá conseguir controlar o tamanho do teclado quando desejar.
+
+5.2. Aparência
+
+O teclado deverá possuir:
+
+- Teclas brancas.
+- Teclas pretas.
+- Proporções adequadas.
+- Separação correta.
+- Identificação opcional das notas.
+- Resposta visual ao toque.
+- Destaque da tecla pressionada.
+- Rolagem horizontal.
+- Suporte a vários toques simultâneos.
+
+A aparência deverá lembrar um piano real.
+
+5.3. Identificação das notas
+
+O teclado poderá apresentar nomes como:
+
+C4, D4, E4, F4, G4, A4, B4, C5, D5, E5, F5, G5, A5, B5 e C6.
+
+O usuário poderá ativar ou desativar a identificação das notas.
+
+Também poderá escolher entre mostrar todas as notas ou apenas algumas.
+
+5.4. Tamanho das teclas
+
+Deverão existir três opções:
+
+PEQUENO: permite visualizar mais teclas simultaneamente.
+
+NORMAL: oferece equilíbrio entre espaço e facilidade de utilização.
+
+GRANDE: aumenta as teclas para facilitar o toque.
+
+O tamanho deverá ser ajustável pelo usuário.
+
+A mudança não poderá deformar as proporções das teclas.
+
+5.5. Quantidade de oitavas
+
+O usuário poderá escolher quantas oitavas deseja visualizar.
+
+A quantidade deverá adaptar-se ao tamanho da tela.
+
+Quando não houver espaço suficiente, o usuário poderá deslizar horizontalmente para alcançar outras regiões do teclado.
+
+5.6. Toques simultâneos
+
+O teclado deverá permitir:
+
+- Tocar acordes.
+- Pressionar várias teclas.
+- Utilizar vários dedos.
+- Tocar com as duas mãos.
+- Reconhecer cada toque individualmente.
+
+O áudio deverá responder rapidamente.
+
+5.7. Rolagem horizontal
+
+O usuário poderá deslizar o teclado para alcançar notas mais graves ou mais agudas.
+
+A rolagem deverá funcionar sem disparar notas acidentalmente.
+
+5.8. Tela cheia
+
+Deverá existir um modo de tela cheia.
+
+Nesse modo:
+
+- O teclado ocupará a maior área possível.
+- Os menus secundários ficarão ocultos.
+- Os controles desnecessários desaparecerão.
+- O usuário poderá sair facilmente do modo.
+
+---
+
+6. TIPOS DE PIANO
+
+O KEYORA terá apenas uma categoria de instrumento: PIANO.
+
+Não é necessário adicionar guitarra, bateria, violino ou outros instrumentos.
+
+A variedade deverá estar nos diferentes timbres de piano.
+
+6.1. Timbres desejados
+
+- Grand Piano.
+- Concert Piano.
+- Upright Piano.
+- Electric Piano.
+- Soft Piano.
+- Bright Piano.
+- Vintage Piano.
+
+Cada timbre deverá possuir características sonoras próprias.
+
+6.2. Seleção de timbre
+
+O usuário deverá clicar no nome do piano atual.
+
+Um painel compacto aparecerá com os timbres disponíveis.
+
+O usuário poderá escolher um timbre e ouvir uma demonstração, quando disponível.
+
+Depois da escolha, o painel deverá fechar automaticamente.
+
+O teclado não deverá perder espaço permanentemente.
+
+6.3. Qualidade sonora
+
+Priorizar:
+
+- Som natural.
+- Baixa latência.
+- Boa sustentação.
+- Resposta rápida.
+- Acordes sem cortes.
+- Transição suave entre notas.
+- Boa polifonia.
+- Volume equilibrado.
+
+É melhor oferecer poucos timbres de qualidade do que muitos sons ruins.
+
+---
+
+7. CONTROLES DO PIANO
+
+Os controles deverão ficar em uma área compacta.
+
+7.1. Oitavas
+
+- Aumentar oitava.
+- Diminuir oitava.
+- Mostrar região atual.
+
+7.2. Volume
+
+- Ajustar volume.
+- Mostrar nível atual.
+- Respeitar o volume do dispositivo.
+
+7.3. Sensibilidade
+
+Opções:
+
+- Baixa.
+- Média.
+- Alta.
+
+Quando suportado pelo mecanismo de áudio, a sensibilidade poderá influenciar a intensidade das notas.
+
+7.4. Sustain
+
+Adicionar um pedal de sustentação virtual.
+
+O usuário poderá ativar e desativar a função.
+
+7.5. Metrônomo
+
+Funções:
+
+- Ligar e desligar.
+- Ajustar BPM.
+- Configurar compasso, quando disponível.
+- Escolher som.
+- Ativar contagem inicial.
+
+7.6. Efeitos
+
+Efeitos complementares:
+
+- Reverb.
+- Chorus para timbres compatíveis.
+- Ambiente.
+- Intensidade.
+
+Os efeitos deverão ser opcionais.
+
+---
+
+8. CONFIGURAÇÕES
+
+8.1. Regra principal
+
+As configurações deverão permanecer escondidas até o usuário clicar no botão correspondente.
+
+Não colocar grandes painéis permanentemente na tela principal.
+
+Quando o usuário fechar as configurações, o teclado deverá voltar ao tamanho disponível.
+
+8.2. Configurações rápidas
+
+- Tema.
+- Timbre.
+- Tamanho das teclas.
+- Oitavas.
+- Mostrar nomes das notas.
+- Sensibilidade.
+- Volume.
+- Sustain.
+- Metrônomo.
+- Efeitos.
+
+8.3. Configurações avançadas
+
+- Áudio.
+- Microfone.
+- Dispositivos de entrada.
+- Dispositivos de saída.
+- Gravação.
+- Exportação.
+- Acessibilidade.
+- Idioma.
+- Armazenamento.
+- Desempenho.
+- Privacidade.
+
+Organizar tudo em categorias e painéis compactos.
+
+---
+
+9. SISTEMA DE PARTITURAS
+
+9.1. Objetivo
+
+O KEYORA deverá possuir um leitor de partituras completo.
+
+O usuário poderá visualizar uma partitura enquanto toca piano ou utilizar somente a partitura.
+
+9.2. Acesso
+
+A opção PARTITURA deverá ficar facilmente acessível.
+
+Ao clicar nela, o usuário poderá:
+
+- Abrir uma partitura.
+- Importar um arquivo.
+- Pesquisar uma música.
+- Visualizar a partitura.
+- Utilizar a partitura junto ao teclado.
+- Esconder a partitura.
+- Utilizar somente a partitura.
+
+9.3. Elementos musicais
+
+O leitor deverá apresentar corretamente:
+
+- Clave de sol.
+- Clave de fá.
+- Notas.
+- Pausas.
+- Compassos.
+- Armadura de clave.
+- Acidentes.
+- Durações.
+- Indicações musicais.
+
+9.4. Controles
+
+- Zoom.
+- Rolagem.
+- Avançar página.
+- Voltar página.
+- Tela cheia.
+- Ajustar tamanho.
+- Selecionar trecho.
+- Repetir trecho.
+
+9.5. Partitura sincronizada
+
+Quando houver dados musicais compatíveis, o aplicativo poderá:
+
+- Destacar a nota atual.
+- Mostrar a próxima nota.
+- Indicar a tecla correspondente.
+- Identificar a mão sugerida.
+- Acompanhar a execução.
+- Pausar.
+- Repetir compassos.
+
+9.6. Modo somente partitura
+
+Esse modo será especialmente importante para quem já possui piano físico.
+
+A partitura poderá ocupar quase toda a tela.
+
+O teclado virtual ficará oculto, caso o usuário deseje.
+
+O microfone poderá ser utilizado para reconhecer as notas tocadas no instrumento físico.
+
+---
+
+10. PESQUISA DE MÚSICAS
+
+10.1. Barra de pesquisa
+
+O KEYORA deverá possuir uma barra de pesquisa de fácil acesso.
+
+O usuário poderá digitar:
+
+- Nome da música.
+- Nome do compositor.
+- Título da composição.
+
+10.2. Resultados
+
+Os resultados poderão apresentar:
+
+- Nome da música.
+- Compositor.
+- Partitura disponível.
+- MIDI disponível.
+- Dificuldade, quando conhecida.
+- Duração, quando disponível.
+
+10.3. Catálogo
+
+O aplicativo poderá utilizar:
+
+- Catálogo próprio.
+- Músicas de domínio público.
+- Partituras licenciadas.
+- Arquivos importados.
+- Arquivos MIDI.
+- Fontes externas autorizadas.
+
+Não prometer que qualquer música existente na internet estará disponível.
+
+10.4. Favoritos e histórico
+
+O usuário poderá:
+
+- Salvar músicas favoritas.
+- Consultar músicas recentes.
+- Continuar estudos.
+- Remover itens.
+- Organizar músicas.
+
+10.5. Direitos autorais
+
+O aplicativo deverá respeitar os direitos autorais.
+
+As músicas e partituras disponibilizadas deverão ter autorização de uso.
+
+O usuário poderá importar arquivos que tenha direito de utilizar.
+
+---
+
+11. ENSINAR A TOCAR
+
+11.1. Objetivo
+
+O KEYORA deverá funcionar como um professor interativo de piano.
+
+A função deverá ajudar o usuário a entender a partitura e descobrir quais teclas precisa pressionar.
+
+11.2. Funcionamento
+
+1. O usuário pesquisa uma música ou importa um arquivo compatível.
+2. O aplicativo carrega a sequência musical.
+3. A partitura aparece.
+4. A próxima nota é destacada.
+5. A tecla correspondente é indicada no teclado.
+6. O aplicativo aguarda a execução, se o usuário estiver nesse modo.
+7. Quando a nota correta for reconhecida, o sistema avança.
+8. O usuário poderá repetir trechos.
+
+11.3. Indicações visuais
+
+O aplicativo poderá mostrar:
+
+- Nome da nota.
+- Posição na partitura.
+- Tecla correspondente.
+- Mão sugerida.
+- Duração.
+- Momento aproximado de execução.
+
+11.4. Modos de aprendizado
+
+MODO 1 — NOTA POR NOTA
+
+Mostra uma nota de cada vez e aguarda a execução.
+
+MODO 2 — ACOMPANHAMENTO
+
+Mostra as notas atuais e próximas.
+
+MODO 3 — PRÁTICA LENTA
+
+Permite diminuir a velocidade da música.
+
+MODO 4 — REPETIR TRECHO
+
+Permite escolher um compasso ou trecho para praticar repetidamente.
+
+MODO 5 — MÃOS SEPARADAS
+
+Permite praticar a mão direita, a mão esquerda e depois as duas juntas.
+
+MODO 6 — MODO LIVRE
+
+Mostra a partitura sem obrigar o usuário a seguir cada nota.
+
+11.5. Verificação
+
+O aplicativo poderá verificar se a nota tocada corresponde à nota esperada.
+
+Deverá:
+
+- Mostrar retorno visual.
+- Indicar a nota esperada.
+- Permitir repetir.
+- Considerar pequenas variações de tempo.
+- Evitar interromper desnecessariamente.
+
+---
+
+12. RECONHECIMENTO DE NOTAS PELO MICROFONE
+
+12.1. Objetivo
+
+Essa função permitirá que pessoas que possuem piano físico utilizem o KEYORA como ferramenta de estudo.
+
+O aplicativo deverá captar o som do piano e tentar identificar as notas tocadas.
+
+12.2. Funcionamento
+
+1. O usuário abre a função OUVIR PIANO.
+2. Autoriza o uso do microfone.
+3. Posiciona o dispositivo próximo ao instrumento.
+4. Seleciona uma música ou partitura.
+5. Começa a tocar.
+6. O aplicativo analisa o áudio.
+7. Tenta identificar as notas.
+8. Compara com a música, quando houver dados compatíveis.
+9. Apresenta o resultado.
+
+12.3. Identificação
+
+O sistema deverá tentar reconhecer:
+
+- Frequência fundamental.
+- Nome da nota.
+- Oitava aproximada.
+- Início da nota.
+- Duração aproximada.
+- Notas simultâneas, quando possível.
+
+12.4. Precisão
+
+O reconhecimento poderá ser afetado por:
+
+- Ruídos.
+- Distância do piano.
+- Qualidade do microfone.
+- Reverberação.
+- Notas sobrepostas.
+- Harmônicos.
+- Volume baixo.
+
+Identificar uma nota isolada é mais simples do que reconhecer vários acordes simultâneos.
+
+O aplicativo deverá indicar quando não conseguir identificar uma nota com confiança suficiente.
+
+12.5. Resultado
+
+Poderá apresentar:
+
+- Nota identificada.
+- Nota esperada.
+- Resultado da comparação.
+- Histórico.
+- Trecho que precisa de prática.
+
+---
+
+13. DIVISÃO DE TELA
+
+13.1. Objetivo
+
+O usuário poderá dividir a tela entre o teclado e a partitura.
+
+Essa função deverá ser opcional.
+
+13.2. Modos
+
+MODO A — SOMENTE PIANO
+
+O teclado ocupa a maior área disponível.
+
+MODO B — SOMENTE PARTITURA
+
+A partitura ocupa a maior área disponível.
+
+MODO C — PARTITURA E TECLADO
+
+A partitura aparece na parte superior e o teclado na parte inferior.
+
+MODO D — DIVISÃO AJUSTÁVEL
+
+O usuário poderá aumentar ou diminuir o espaço destinado a cada área.
+
+Essa função será especialmente importante em tablets.
+
+13.3. Teclado dividido
+
+O usuário poderá dividir o teclado em duas regiões.
+
+Possibilidades:
+
+- Escolher o ponto de divisão.
+- Ajustar oitavas.
+- Configurar timbres de piano diferentes, se suportado.
+- Ajustar volumes.
+- Ativar ou desativar a divisão.
+
+A função deverá continuar focada em piano.
+
+---
+
+14. GRAVAÇÃO E REPRODUÇÃO
+
+14.1. Gravação
+
+O usuário poderá gravar suas execuções.
+
+A gravação deverá registrar, quando possível:
+
+- Notas.
+- Início.
+- Duração.
+- Intensidade.
+- Sustain.
+- Andamento.
+
+14.2. Reprodução
+
+O usuário poderá:
+
+- Reproduzir.
+- Pausar.
+- Retomar.
+- Voltar ao início.
+- Repetir.
+- Ajustar velocidade.
+
+14.3. Salvamento
+
+As gravações deverão ficar salvas localmente.
+
+Cada gravação poderá possuir:
+
+- Nome.
+- Data.
+- Duração.
+- Opção de renomear.
+- Opção de excluir.
+
+14.4. Exportação
+
+Formatos desejados:
+
+- MIDI.
+- Áudio.
+- Formato próprio de projeto, se necessário.
+
+14.5. Compartilhamento
+
+Permitir compartilhar as gravações utilizando os recursos do Android.
+
+---
+
+15. AULAS DE PIANO
+
+O KEYORA poderá possuir uma área de aulas para iniciantes.
+
+Conteúdos:
+
+- Conhecendo as teclas.
+- Identificando notas.
+- Oitavas.
+- Clave de sol.
+- Clave de fá.
+- Figuras musicais.
+- Pausas.
+- Compassos.
+- Ritmo.
+- Leitura musical.
+- Coordenação das mãos.
+- Exercícios.
+- Prática de músicas.
+
+Cada aula poderá apresentar:
+
+- Explicação.
+- Demonstração visual.
+- Demonstração sonora.
+- Exercício.
+- Verificação.
+- Opção de repetir.
+
+O aplicativo poderá salvar o progresso do usuário.
+
+---
+
+16. BIBLIOTECA DE ARQUIVOS
+
+O usuário deverá possuir uma biblioteca pessoal.
+
+Funções:
+
+- Importar.
+- Abrir.
+- Renomear.
+- Excluir.
+- Favoritar.
+- Pesquisar.
+- Ordenar por nome.
+- Ordenar por data.
+- Consultar arquivos recentes.
+
+Formatos prioritários:
+
+- MIDI.
+- PDF.
+- Imagens.
+- Formatos de notação musical compatíveis.
+
+O aplicativo deverá diferenciar arquivos que consegue apenas exibir daqueles que consegue interpretar musicalmente.
+
+---
+
+17. ADAPTAÇÃO PARA TABLETS E CELULARES
+
+17.1. Tablets
+
+A experiência em tablets será prioridade.
+
+A interface deverá aproveitar a largura da tela.
+
+Possibilidades:
+
+- Teclas maiores.
+- Mais oitavas visíveis.
+- Partituras maiores.
+- Divisão de tela.
+- Controles bem distribuídos.
+
+17.2. Celulares
+
+A interface deverá se adaptar:
+
+- Menos teclas visíveis.
+- Rolagem horizontal.
+- Menus compactos.
+- Partituras com zoom.
+- Controles agrupados.
+
+17.3. Orientação
+
+O modo piano deverá priorizar a orientação paisagem.
+
+Outras áreas poderão adaptar-se à orientação retrato quando fizer sentido.
+
+O aplicativo não deverá cortar teclas ou sobrepor controles quando a resolução mudar.
+
+---
+
+18. DESEMPENHO E FUNCIONAMENTO
+
+Prioridades:
+
+- Inicialização rápida.
+- Baixo consumo de memória.
+- Resposta rápida ao toque.
+- Áudio com baixa latência.
+- Interface fluida.
+- Ausência de notas presas.
+- Boa polifonia.
+- Carregamento eficiente dos timbres.
+- Estabilidade em tablets Android.
+
+As funções que não dependem de internet deverão funcionar offline.
+
+Exemplos:
+
+- Piano virtual.
+- Timbres instalados.
+- Configurações.
+- Gravações locais.
+- Arquivos importados.
+- Partituras já baixadas.
+
+Pesquisa online e catálogos externos dependerão de conexão.
+
+---
+
+19. PRIVACIDADE E PERMISSÕES
+
+O microfone deverá ser solicitado somente quando o usuário abrir uma função que necessite dele.
+
+O aplicativo deverá explicar a finalidade da permissão.
+
+Regras:
+
+- Não gravar áudio sem ação clara do usuário.
+- Não manter o microfone ativo sem necessidade.
+- Informar quando a captação estiver ativa.
+- Permitir interromper a captação.
+- Explicar onde as gravações são armazenadas.
+- Não enviar gravações para servidores sem consentimento.
+
+O acesso a arquivos deverá ser solicitado somente quando necessário.
+
+---
+
+20. RECURSOS GRATUITOS E POSSÍVEL VERSÃO PREMIUM
+
+O aplicativo deverá ser útil mesmo sem assinatura.
+
+O funcionamento básico do piano não deverá ficar bloqueado atrás de pagamento.
+
+Recursos básicos
+
+- Piano virtual.
+- Timbres básicos.
+- Configurações essenciais.
+- Quatro temas.
+- Importação de arquivos suportados.
+- Leitura de partituras locais compatíveis.
+- Gravação básica, quando implementada.
+- Ferramentas iniciais de aprendizado.
+
+Possíveis recursos Premium
+
+- Biblioteca ampliada de timbres.
+- Catálogo maior de músicas.
+- Aulas adicionais.
+- Análise musical avançada.
+- Mais opções de exportação.
+- Reconhecimento avançado de notas.
+- Sincronização em nuvem, se implementada.
+- Personalizações adicionais.
+
+Todas as cobranças deverão ser transparentes.
+
+---
+
+21. DETALHES IMPORTANTES DA EXPERIÊNCIA
+
+- O usuário deverá entender rapidamente como utilizar o aplicativo.
+- Os botões deverão possuir nomes claros.
+- Os ícones deverão ser reconhecíveis.
+- A tela principal não deverá ficar lotada.
+- As configurações avançadas deverão ficar em menus secundários.
+- O teclado deverá continuar grande.
+- O usuário deverá conseguir voltar rapidamente ao piano.
+- A partitura deverá abrir e fechar facilmente.
+- A troca de tema deverá ser imediata.
+- As preferências deverão ser preservadas.
+- O aplicativo não deverá interromper desnecessariamente a execução.
+- Mensagens de erro deverão explicar o problema.
+- Animações não poderão atrapalhar a leitura musical.
+
+---
+
+22. ORGANIZAÇÃO TÉCNICA DO PROJETO
+
+O desenvolvimento deverá ser dividido em módulos independentes.
+
+Módulos recomendados:
+
+1. Interface principal.
+2. Motor de áudio.
+3. Teclado virtual.
+4. Sistema de timbres.
+5. Sistema de partituras.
+6. Sistema de aprendizado.
+7. Reconhecimento de áudio.
+8. Gravação.
+9. Biblioteca de arquivos.
+10. Configurações.
+11. Temas.
+
+22.1. Motor do teclado
+
+Responsável por:
+
+- Eventos de toque.
+- Notas pressionadas.
+- Notas liberadas.
+- Polifonia.
+- Timbres.
+- Oitavas.
+- Sustain.
+- Volume.
+- Sensibilidade.
+- Rolagem.
+
+22.2. Sistema de partituras
+
+Responsável por:
+
+- Exibição.
+- Zoom.
+- Rolagem.
+- Importação.
+- Interpretação musical.
+- Destaque das notas.
+- Sincronização com MIDI.
+
+22.3. Sistema de reconhecimento
+
+Responsável por:
+
+- Captura do áudio.
+- Análise do sinal.
+- Estimativa das notas.
+- Identificação da confiança.
+- Comparação com a música.
+
+22.4. Sistema de temas
+
+Deverá utilizar uma estrutura centralizada de cores.
+
+Assim, quando o usuário trocar de tema, todas as telas acompanharão a mudança automaticamente.
+
+22.5. Salvamento
+
+O aplicativo deverá guardar:
+
+- Tema.
+- Timbre.
+- Tamanho das teclas.
+- Oitavas.
+- Volume.
+- Sensibilidade.
+- Preferências de partitura.
+- Preferências de aprendizado.
+- Favoritos.
+- Histórico.
+- Gravações.
+
+---
+
+23. ORDEM DE DESENVOLVIMENTO
+
+O projeto deverá ser desenvolvido por etapas para evitar que muitas funções incompletas sejam adicionadas de uma vez.
+
+ETAPA 1 — ESTRUTURA PRINCIPAL
+
+- Criar o projeto.
+- Desenvolver a interface principal.
+- Criar os quatro temas.
+- Desenvolver o teclado virtual.
+- Implementar identificação das notas.
+- Implementar rolagem.
+- Implementar ajuste do tamanho.
+- Implementar ajuste de oitavas.
+- Adicionar timbres básicos.
+- Criar configurações compactas.
+
+ETAPA 2 — RECURSOS MUSICAIS
+
+- Volume.
+- Sensibilidade.
+- Sustain.
+- Metrônomo.
+- Efeitos.
+- Gravação.
+- Reprodução.
+- Salvamento.
+- Compartilhamento.
+
+ETAPA 3 — PARTITURAS
+
+- Tela de partitura.
+- Abrir e esconder partitura.
+- Importar PDF.
+- Importar imagens.
+- Importar MIDI.
+- Interpretar dados musicais.
+- Dividir tela.
+- Ajustar proporções.
+
+ETAPA 4 — APRENDIZADO
+
+- Modo nota por nota.
+- Acompanhamento.
+- Prática lenta.
+- Mãos separadas.
+- Repetição de trechos.
+- Destaque da próxima nota.
+- Indicação da tecla correspondente.
+- Verificação da execução.
+
+ETAPA 5 — PIANO FÍSICO
+
+- Permissão do microfone.
+- Captura de áudio.
+- Identificação de notas isoladas.
+- Identificação de oitavas.
+- Reconhecimento progressivo de notas simultâneas.
+- Comparação com partitura.
+- Análise da execução.
+
+ETAPA 6 — REFINAMENTO
+
+- Otimização.
+- Testes em tablets.
+- Testes em celulares.
+- Melhorias de acessibilidade.
+- Correções de áudio.
+- Melhorias na biblioteca.
+- Recursos Premium, se desejado.
+
+---
+
+24. O QUE NÃO DEVE SER FEITO
+
+- Não transformar o aplicativo em um jogo.
+- Não exagerar nos efeitos futuristas.
+- Não utilizar brilhos em todos os componentes.
+- Não encher a tela de configurações.
+- Não diminuir o teclado para acomodar painéis permanentes.
+- Não deixar a partitura aberta obrigatoriamente.
+- Não obrigar o usuário a utilizar o teclado virtual.
+- Não limitar o aplicativo a pessoas que não possuem piano.
+- Não adicionar instrumentos musicais sem relação com o piano.
+- Não criar menus confusos.
+- Não apresentar recursos falsos ou apenas decorativos.
+- Não mostrar botões que não funcionam.
+- Não afirmar que o reconhecimento de áudio é perfeito.
+- Não prometer encontrar qualquer música da internet.
+- Não prometer interpretar automaticamente qualquer PDF sem implementar essa tecnologia.
+- Não sacrificar a qualidade sonora para adicionar efeitos visuais.
+
+---
+
+25. EXPERIÊNCIA FINAL DESEJADA
+
+Ao abrir o KEYORA PIANO, o usuário deverá encontrar uma interface bonita, limpa e profissional.
+
+O teclado virtual deverá estar facilmente acessível e ocupar boa parte da tela.
+
+A pessoa poderá começar a tocar imediatamente.
+
+Poderá escolher o tipo de piano, ajustar as oitavas, modificar o tamanho das teclas e personalizar a interface.
+
+Se quiser aprender, poderá entrar na área de aprendizado, pesquisar uma música ou importar um arquivo compatível.
+
+O aplicativo mostrará a partitura e indicará qual nota tocar, destacando a tecla correspondente.
+
+Se o usuário já possuir um piano físico, poderá utilizar somente a partitura e ativar o reconhecimento de notas pelo microfone.
+
+Também poderá gravar, reproduzir, repetir trechos, dividir a tela e praticar com uma ou duas mãos.
+
+As configurações deverão aparecer somente quando solicitadas.
+
+A troca entre Rosa, Azul, Branco e Black deverá modificar toda a identidade visual.
+
+---
+
+26. DEFINIÇÃO FINAL DO PRODUTO
+
+NOME OFICIAL: KEYORA PIANO
+
+Categoria: Piano virtual, leitura musical e aprendizado de piano.
+
+Plataforma inicial: Android.
+
+Prioridade: Tablets, com adaptação para celulares.
+
+Instrumento: Piano, com diferentes timbres.
+
+Os sete pilares do KEYORA
+
+1. Piano virtual de qualidade.
+2. Leitura de partituras.
+3. Aprendizado guiado.
+4. Reconhecimento de notas pelo microfone.
+5. Gravação e reprodução.
+6. Personalização visual.
+7. Interface compacta e profissional.
+
+IDENTIDADE VISUAL
+
+- Moderna.
+- Elegante.
+- Profissional.
+- Personalizável.
+- Sem excesso de futurismo.
+- Com teclado em destaque.
+- Com menus compactos.
+
+REGRA DE OURO
+
+O TECLADO É O CENTRO DO KEYORA PIANO.
+
+Todas as outras funções deverão complementar a experiência de tocar piano, aprender músicas e ler partituras, sem roubar o espaço ou a atenção que o teclado merece.
+
+O objetivo é desenvolver um aplicativo completo que sirva tanto para quem deseja tocar piano na tela quanto para quem deseja aprender música ou utilizar uma partitura enquanto toca um instrumento físico.
+
+FIM DO DOCUMENTO MESTRE — KEYORA PIANO.

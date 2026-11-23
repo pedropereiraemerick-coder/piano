@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080d18" />
+      <stop offset="100%" stop-color="#132238" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  <rect x="28" y="28" width="456" height="456" rx="88" fill="none" stroke="#d4af7a" stroke-opacity="0.32" stroke-width="4" />
+  <!-- Stylized piano key frame -->
+  <rect x="96" y="136" width="320" height="240" rx="28" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="6" />
+  <!-- White keys -->
+  <rect x="120" y="160" width="60" height="192" rx="10" fill="#f1f5f9" />
+  <rect x="190" y="160" width="60" height="192" rx="10" fill="#f1f5f9" />
+  <rect x="260" y="160" width="60" height="192" rx="10" fill="#f1f5f9" />
+  <rect x="330" y="160" width="60" height="192" rx="10" fill="#f1f5f9" />
+  <!-- Black keys -->
+  <rect x="163" y="156" width="40" height="118" rx="8" fill="#0b1220" />
+  <rect x="234" y="156" width="40" height="118" rx="8" fill="url(#accentGrad)" />
+  <rect x="306" y="156" width="40" height="118" rx="8" fill="#0b1220" />
+  <!-- Champagne gold highlight bar -->
+  <rect x="120" y="132" width="270" height="10" rx="5" fill="#d4af7a" />
+</svg>

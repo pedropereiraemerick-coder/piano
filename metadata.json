@@ -1,0 +1,10 @@
+{
+  "name": "KEYORA PIANO",
+  "description": "Plataforma de partituras interativas, demonstrações sonoras e reconhecimento pelo microfone para aprender músicas no piano ou teclado físico.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
